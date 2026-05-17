@@ -87,3 +87,73 @@ Another challenge is handling incomplete country code information and ensuring c
 ## Google Colab Notebook
 
 [Click to go to my Google Colab](https://colab.research.google.com/drive/126I5cjCoF5vQQR2Rh44y-D0dL90q7FAX?usp=sharing)
+
+---
+
+# Week 12 Update: Exploratory Analysis and Visualization
+
+Name: Amelia Pucek
+
+Date: 04/24/2026
+
+Course: CS-215
+
+## Goal
+
+This week, I continued exploring my global literacy rates dataset by performing exploratory analysis and creating interactive visualizations using Plotly.
+
+The goal of this analysis is to better understand literacy trends across countries and over time.
+
+---
+
+## Exploratory Analysis and Visualization
+
+This week, I continued exploring my global literacy rates dataset by performing exploratory analysis and creating interactive visualizations using Plotly.
+
+The dataset contains literacy rate information across countries and years. During exploration, I confirmed that the dataset contains four columns:
+- Entity
+- Code
+- Year
+- Literacy rate among adults
+
+The dataset appears relatively clean overall, although the Code column contains missing values for some entries.
+
+---
+
+## Interactive Visualization
+
+For this week’s analysis, I created an interactive Plotly visualization showing average global literacy rates over time.
+
+The visualization reveals a general upward trend in literacy rates across recent decades, suggesting that literacy has improved globally over time.
+
+One important limitation is that the dataset may not include the same countries every year, which could influence yearly averages and trends.
+
+Because the visualization was created with Plotly, it allows users to interact with the graph and explore changes across years more easily.
+
+![Interactive Graph](interactive_graph.png)
+
+---
+
+## NOTE
+
+Because this webpage is done in README, the interactive map won't work here. However, I did add it at the bottom of this webpage in this section: *Interactive Plotly Visualization and Notebook*.
+
+---
+
+## What I Learned From the Analysis
+
+From this exploratory analysis, I learned that:
+- Global literacy rates generally increase over time
+- Literacy levels vary significantly across countries and years
+- The dataset is relatively clean and workable for future analysis
+- Missing country code values may require additional cleaning later
+
+This analysis helped me better understand the structure of the dataset and identify potential directions for deeper analysis and visualization.
+
+---
+
+## Interactive Plotly Visualization and Notebook
+
+[Click to Access Interactive Graph](https://colab.research.google.com/drive/126I5cjCoF5vQQR2Rh44y-D0dL90q7FAX#scrollTo=hG6zr4EsPGwe&fullscreenOutput=true)
+
+[Click to Access Colab Notebook](https://colab.research.google.com/drive/126I5cjCoF5vQQR2Rh44y-D0dL90q7FAX?usp=sharing)
