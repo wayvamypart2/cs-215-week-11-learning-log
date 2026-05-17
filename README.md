@@ -98,6 +98,8 @@ Date: 04/24/2026
 
 Course: CS-215
 
+---
+
 ## Goal
 
 This week, I continued exploring my global literacy rates dataset by performing exploratory analysis and creating interactive visualizations using Plotly.
@@ -157,3 +159,89 @@ This analysis helped me better understand the structure of the dataset and ident
 [Click to Access Interactive Graph](https://colab.research.google.com/drive/126I5cjCoF5vQQR2Rh44y-D0dL90q7FAX#scrollTo=hG6zr4EsPGwe&fullscreenOutput=true)
 
 [Click to Access Colab Notebook](https://colab.research.google.com/drive/126I5cjCoF5vQQR2Rh44y-D0dL90q7FAX?usp=sharing)
+
+---
+
+# Week 14 Update: Project Update & New Technique
+
+Name: Amelia Pucek
+
+Date: 04/24/2026
+
+Course: CS-215
+
+---
+
+## Project Progress Update
+
+So far, I have completed about half of the core analysis and visualizations for my global literacy rates project.
+
+At this stage, I have:
+- Analyzed overall global literacy trends over time
+- Created visualizations comparing literacy rates across regions
+- Explored literacy differences between countries
+- Performed regression analysis to examine long-term trends
+- Written interpretations and explanations for most visualizations
+- Created the overall structure and narrative for my project webpage
+
+I still plan to finalize and refine:
+- The top 10 country comparison sections
+- The literacy improvement analysis section
+- Minor formatting and organization improvements across the webpage
+
+Overall, the project structure and major analysis components are complete, and I am currently focused on polishing and refining the final presentation.
+
+---
+
+## Literacy Rates by Region
+
+![Literacy by Region](literacy_region.png)
+
+The chart above shows clear differences in average literacy rates across regions.
+
+Europe has the highest average literacy rate at about 98%, while the Americas also show relatively high levels at around 92%.
+
+Asia and Africa have lower averages, at roughly 72% and 74% respectively. While these two regions are fairly close to each other, both remain significantly below Europe and the Americas.
+
+Overall, the pattern highlights global inequality in education outcomes, likely shaped by differences in economic development, access to schooling, and long-term investment in education systems.
+
+---
+
+## New Technique Researched and Implemented
+
+![Literacy Regression](literacy_regression.png)
+
+The new technique I researched and implemented for this project was linear regression analysis using the SciPy library.
+
+The positive slope (0.48) shows that global literacy rates have generally increase over time. On average, literacy has risen by about 0.48 percentage points per year.
+
+The R² value of 0.52 suggests that time explains about half of the variation in literacy rates. This means that there is a clear upward trend overall, but it's not perfectly consistent. Other factors that may influence these results are differences between countries, gaps in data reporting, and regional inequality.
+
+---
+
+## Why Regression?
+
+I used regression analysis to measure the overall trend in global literacy rates over time and calculate the average yearly increase in literacy rates.
+
+To learn this technique, I used:
+- SciPy documentation for `linregress`
+- Web articles explaining regression analysis concepts
+- ChatGPT for troubleshooting coding and interpretation questions
+- Google Gemini in Google Colab for debugging assistance
+
+Using regression analysis helped move the project beyond simple visualization by providing quantitative evidence for the upward trend in global literacy rates.
+
+---
+
+## Communication Strategy
+
+My project is organized as a narrative that moves from broad global patterns to more specific country and regional comparisons.
+
+I begin with an overview of global literacy trends over time before moving into:
+- comparisons between regions,
+- highest and lowest literacy rate countries,
+- and countries with the largest literacy improvements.
+
+The visuals are sequenced to gradually build a clearer understanding of global literacy inequality and progress over time.
+
+For presenting the project, I plan to primarily present directly from my project webpage because it already organizes the visualizations and written explanations into a clear narrative structure.
