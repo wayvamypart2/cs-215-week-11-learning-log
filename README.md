@@ -166,7 +166,7 @@ This analysis helped me better understand the structure of the dataset and ident
 
 Name: Amelia Pucek
 
-Date: 04/24/2026
+Date: 05/08/2026
 
 Course: CS-215
 
@@ -245,3 +245,9 @@ I begin with an overview of global literacy trends over time before moving into:
 The visuals are sequenced to gradually build a clearer understanding of global literacy inequality and progress over time.
 
 For presenting the project, I plan to primarily present directly from my project webpage because it already organizes the visualizations and written explanations into a clear narrative structure.
+
+---
+
+## Link to Google Colab Notebook
+
+[Click to Access Colab Notebook](https://colab.research.google.com/drive/126I5cjCoF5vQQR2Rh44y-D0dL90q7FAX?usp=sharing)
